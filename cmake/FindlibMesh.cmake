@@ -10,7 +10,7 @@ find_path(libMesh_INCLUDE_DIR libmesh/libmesh_config.h
 
 # Find the libraries.
 find_library(libMesh_LIBRARY
-             NAMES mesh_opt
+             NAMES mesh_dbg
              HINTS ${libMesh_DIR}/lib)
 
 # Find libMesh version.
